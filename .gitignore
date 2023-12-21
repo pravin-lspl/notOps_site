@@ -1,0 +1,7 @@
+# Packages #
+*.zip
+*.tar.*
+
+# IDE & System Related Files #
+.DS_Store
+.vscode
