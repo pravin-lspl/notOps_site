@@ -1,6 +1,6 @@
 /*
 
-Template: Qloud - Cloud Computing, Apps & Server Responsive HTML5 Template
+Template: NotOps.io - Zero to Production On Day One
 Author: iqonicthemes.in
 Version: 1.0
 Design and Developed by: iqonicthemes.in
@@ -190,3 +190,11 @@ input:hover, input.form-control:hover, input:focus, input.form-control:focus, te
 -----------------------------------------------------------------------*/
 #back-to-top .top { z-index: 999; position: fixed; margin: 0px; color: #ffffff; background: #0D1E67; position: fixed; bottom: 30px; right: 25px; z-index: 999; font-size: 26px; width: 50px; height: 50px; text-align: center; line-height: 50px; border-radius: 10px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
 #back-to-top .top:hover { background: #ffffff; color: #0D1E67; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
+
+.image-desc {
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;  
+}
