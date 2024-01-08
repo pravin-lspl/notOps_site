@@ -88,13 +88,13 @@
                         <br>on Day One                  
                     </rs-layer>
                     
-                    <rs-layer id="slider-1-slide-1-layer-25" data-type="text" data-color="#ffffff" data-rsp_ch="on" data-xy="x:96px;y:410px;" data-text="w:normal;s:18;l:30;" data-dim="w:380px;" data-vbility="t,t,t,f" data-frame_0="y:-50;" data-frame_1="st:3700;sp:1000;sR:3700;" data-frame_999="o:0;st:w;sR:4300;" style="z-index:37;">
+                    <rs-layer id="slider-1-slide-1-layer-25" data-type="text" data-color="#ffffff" data-rsp_ch="on" data-xy="x:96px;y:410px;" data-text="w:normal;s:18;l:30;" data-dim="w:380px;" data-vbility="t,t,t,f" data-frame_0="y:-50;" data-frame_1="st:1600;sp:1000;sR:1600;" data-frame_999="o:0;st:w;sR:4300;" style="z-index:37;">
                         You can download and run our tool to create and manage a Kubernetes based platform with the best architectural practices, security and observability built-in, without the learning curve of Kubernetes, AWS and the cloud-native ecosystem.
                     </rs-layer>    
 
 
                    
-                    <rs-layer id="slider-2-slide-2-layer-4" data-type="text" data-rsp_ch="on" data-xy="x:500px;y:140px;" data-text="w:normal;s:20,14,10,6;l:0,17,12,7;" data-dim="w:900px,854px,720px,640px;h:506px,480px,405px,360px;" data-frame_0="sX:0.9;sY:0.9;" data-frame_1="st:1600;sp:1000;sR:1600;" data-frame_999="o:0;st:w;sR:6400;" style="z-index:31;">                        
+                    <rs-layer id="slider-2-slide-2-layer-4" data-type="text" data-rsp_ch="on" data-xy="x:500px;y:140px;" data-text="w:normal;s:20,14,10,6;l:0,17,12,7;" data-dim="w:900px,854px,720px,640px;h:506px,480px,405px,360px;" data-frame_0="sX:0.9;sY:0.9;" data-frame_1="st:1500;sp:1000;sR:1500;" data-frame_999="o:0;st:w;sR:6400;" style="z-index:31;">                        
                         <!-- <div id="my-vdo">                            
                             <iframe width="auto" height="auto" src="https://www.youtube.com/embed/tiKR0XUnj20">
                             </iframe>
@@ -362,7 +362,7 @@
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 align-self-center">
                     <div class="iq-testimonial text-left iq-testimonial-1">
-                        <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="false" data-dots="true" data-items="1" data-items-laptop="1" data-items-tab="1" data-items-mobile="1" data-items-mobile-sm="1" data-margin="30">
+                        <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="false" data-dots="true" data-items="1" data-speed="10000" data-items-laptop="1" data-items-tab="1" data-sp data-items-mobile="1" data-items-mobile-sm="1" data-margin="30">
                             <div class="item">
                                 <div class="iq-testimonial-info">
                                     <div class="iq-testimonial-content">
@@ -678,7 +678,15 @@
                         allowHTML5AutoPlayOnAndroid: true
                     },
                 });
-            }
+            }   
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                items:1,
+                loop:true,                
+                autoplay:true,
+                autoplayTimeout:10000,
+                autoplayHoverPause:true
+            });         
         });
     </script>
     
