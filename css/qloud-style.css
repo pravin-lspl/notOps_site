@@ -114,7 +114,8 @@ header .navbar .navbar-brand img { height: 40px; transition: all 0.5s ease-in-ou
 header .navbar .navbar-nav { margin-top: 0; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 header .navbar .navbar-nav>li { margin: 0 40px 0 0; position: relative; }
 header .navbar .navbar-nav>li:last-child { margin-right: 0; }
-header .navbar .navbar-nav .nav-item a { color: #ffffff; padding: 10px 0; font-family: 'Now', sans-serif; font-size: 16px; }
+/* header .navbar .navbar-nav .nav-item a { color: #ffffff; padding: 10px 0; font-family: 'Now', sans-serif; font-size: 16px; } */
+header .navbar .navbar-nav .nav-item a {color: #ffffff; padding: 10px 0; font-family: TeXGyreAdventor-Bold !important;font-size: 16px; }
 header .navbar .navbar-nav .nav-item a:hover, header .navbar .navbar-nav .nav-item a:focus, header .navbar .navbar-nav .nav-item a.active, header .navbar .navbar-nav .nav-item a.active:focus, header .navbar .navbar-nav .nav-item a.active:hover, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link { color: #007bfc; background: none; box-shadow: none; }
 header .navbar .navbar-nav .nav-item a.active::before, header .navbar .navbar-nav .nav-item:hover>a::before, header .navbar .navbar-nav .nav-item>a:hover::before { width: 100%; }
 header .button, header .button-line { margin-top: 0; margin-left: 15px; }
