@@ -251,9 +251,29 @@ Index Of Script
                 mainClass: 'mfp-fade',
                 removalDelay: 160,
                 preloader: false,
-                fixedContentPos: false
+                fixedContentPos: false,  
+                midClick: true,                             
+            });
+ 
+            jQuery('.popup-calender').magnificPopup({                
+                disableOn: 700,
+                type: 'iframe',   
+                mainClass: 'mfp-fade',             
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false,  
+                midClick: true,                                                                                  
             });
 
+            jQuery('.open-popup-link').magnificPopup({                
+                disableOn: 700,                
+                type: 'inline',   
+                mainClass: 'mfp-fade',             
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false,   
+                midClick: true,                                                                            
+            });
             /*------------------------
             Owl Carousel
             --------------------------*/
