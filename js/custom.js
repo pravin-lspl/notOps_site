@@ -1,5 +1,5 @@
 /*
-Template: NotOps.io - Zero to Production On Day One
+Template: notops.io - Zero to Production On Day One
 Author: iqonicthemes.in
 Version: 1.0
 Design and Developed by: iqonicthemes.in
